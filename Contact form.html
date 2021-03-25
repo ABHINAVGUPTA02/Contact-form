@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formstyling.css">
+</head>
+<body><div class="container">
+    <form action="">
+        <p><h3>CONTACT FORM</h3></p>
+        <p>Please Fill in the Following Details!</p>
+        <hr>
+        <p><span id="name"> Name* </span> &nbsp;<input type="text" required placeholder="First Name">&nbsp; <input type="text" required placeholder="Last Name"></p>
+        <p><span id="email"> Email </span>&nbsp; <input type="email" placeholder="gupta@xyz.com" size="47px"></p>
+        <p><span id="phone" >Phone*  </span>&nbsp;<input type="number" name="" id="" required placeholder="###" min="000" max="999">&nbsp; <input type="number" name="" id="" required placeholder="###" min="000" max="999">&nbsp; <input type="number" name="" id="" required placeholder="####" min="0000" max="9999"></p>
+        <p><span id="date_of_birth">D.O.B* </span><input type="date" name="" id="" required placeholder="dd-mm-yyyy"></p>
+        <p><span id="message_subject" >Message Subject</span>&nbsp;<select name="" id="sele" >
+            <option value="">--Select the type of issue</option>
+            <option value="">Technical issue</option>
+            <option value="">administrative issue</option>
+            <option value="">Enquiry</option>
+            <option value="">Other</option>
+        </select></p>
+        <p><span id="message">Message</span> 
+            <textarea name="" id="" cols="30" rows="10" required placeholder="Elaborate your issue"></textarea>
+        </p>
+        <p><span id="Ver">Verification</span> <input type="checkbox" name="" id="" required >
+        <span id="cap">I am not a robot</span></p>
+        <hr>
+        <p><input type="button" value="Submit"></p>
+    </form>
+</div>
+</body>
+</html>

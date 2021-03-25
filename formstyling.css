@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    background-image: url('background_image.jpg');
+   
+}
+
+body div.container{
+    background-color: rgba(15, 163, 221, 0.603);
+    width: 40%;
+    height: 72%;
+    position: relative;
+    left: 30%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"]{
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgba(45, 3, 56, 0.781);
+    box-shadow: 5px 10px 18p darkcyan;
+}
+
+input[type="date"]{
+    width: 70%;
+}
+
+hr{
+    width: 40%;
+    color: darkgreen;
+    background-color: darkmagenta;
+}
+
+body p select#sele{
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgba(45, 3, 56, 0.781);
+    box-shadow: 5px 10px 18px darkcyan;
+    width: 54%;
+}
+
+body p span#name{
+    font-weight: 800;
+}
+
+body p span#email{
+    font-weight: 800;
+}
+
+body p span#phone{
+    font-weight: 800;
+}
+
+body p span#date_of_birth{
+    font-weight: 800;
+}
+    
+
+
+body p span#message_subject{
+    font-weight: 800;
+}
+
+
+body p span#message{
+    font-weight: 800;
+    position: relative;
+    bottom: 155px;
+    right: 10px;
+}
+textarea{
+    width: 68%;
+    height: 30%;
+}
+
+body p span#ver{
+    font-weight: 800;
+}
+
+body p span#cap{
+    padding: 8px;
+    background: white;
+}
+input[type="button"]{
+    background-color: rgba(131, 190, 29, 0.849);
+    padding: 8px;
+}
+
+input[type="button"]:hover{
+    background-color: rgb(84, 128, 8);
+}
